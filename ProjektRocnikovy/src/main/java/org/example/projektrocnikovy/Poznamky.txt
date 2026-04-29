@@ -1,0 +1,9 @@
+ToggleGroup - přepínání - nemohou býti stisknuta obě tlačítka najednou.
+
+ToggleGroup shapeGroup = new ToggleGroup();
+
+RadioButton rbRect = new RadioButton("Rectangle");
+rbRect.setToggleGroup(shapeGroup); // Added to the group
+
+RadioButton rbCircle = new RadioButton("Circle");
+rbCircle.setToggleGroup(shapeGroup); // Added to the group

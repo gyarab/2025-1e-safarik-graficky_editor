@@ -1,0 +1,78 @@
+.root {
+    -fx-background-color: #ffffff;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.h-box {
+    -fx-alignment: center-left;
+    -fx-spacing: 15;
+}
+
+.radio-button {
+    -fx-padding: 8;
+    -fx-background-color: #f5f5f5;
+    -fx-background-radius: 8;
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-border-color: rgba(0, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+.radio-button .radio {
+    -fx-min-width: 0;
+    -fx-max-width: 0;
+    -fx-min-height: 0;
+    -fx-max-height: 0;
+    -fx-opacity: 0;
+}
+
+.radio-button:hover {
+    -fx-background-color: #eeeeee;
+    -fx-border-color: rgba(0, 0, 0, 0.05);
+}
+
+.radio-button:selected {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(three-pass-box, rgba(52, 152, 219, 0.2), 5, 0, 0, 0);
+}
+
+.button {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 6 12;
+    -fx-text-fill: #444444;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #3498db;
+}
+
+.color-picker {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdcdc !important;
+    -fx-border-radius: 6 !important;
+    -fx-background-radius: 6 !important;
+    -fx-max-height: 32px;
+}
+
+.slider .track {
+    -fx-background-color: #e0e0e0;
+    -fx-background-radius: 5;
+    -fx-pref-height: 5;
+}
+
+.slider .thumb {
+    -fx-background-color: #3498db;
+    -fx-background-radius: 10;
+}
+
+.stack-pane {
+    -fx-background-color: transparent;
+}
