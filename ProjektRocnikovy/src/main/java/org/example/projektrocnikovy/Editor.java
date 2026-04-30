@@ -129,8 +129,6 @@ public class Editor extends Application{
         ukazatel.radiusProperty().bind(posuvnice.valueProperty().divide(2));
         ukazatel.fillProperty().bind(vyberBarev.valueProperty());
 
-        // Nezapomeň na import: import javafx.geometry.Pos;
-
 
         HBox listaHorni = new HBox(ulozit, smazatVse);
 
